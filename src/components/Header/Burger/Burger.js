@@ -4,32 +4,24 @@ import styled from 'styled-components';
 import RightNav from '../RightNav/RightNav.js';
 
 const BurgerStyle = styled.div`
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  top: 15px;
-  right: 20px;
-  display: none;
+  @media (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 20;
 
-  div {
-    width: 20px;
-    height: 3px;
-    background: #fff;
-    border-radius: 10px;
-    transform-origin: 1px;
-    transition: all 0.3s linear;
-  }
-
-  &:nth-child(1) {
-    transform: ${({ open }) => open ? 'rotate(45deg' : 'rotate(0)'}
-  }
-  &:nth-child(2) {
-    transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'}
-    opacity: ${({ open }) => open ? 0 : 1}
-  }
-  &:nth-child(3) {
-    transform: ${({ open }) => open ? 'rotate(-45deg' : 'rotate(0)'}
-  }
+    div {
+      width: 40px;
+      height: 3px;
+      background-color: ${({ open }) => open ? '#fff' : '#227093'};
+      border-radius: 10px;
+      transform-origin: 1px;
+      transition: all 0.3s linear;
+      margin: 10px 0;
+    }
+  }  
 `;
 
 const Burger = () => {
