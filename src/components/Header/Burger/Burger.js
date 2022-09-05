@@ -9,11 +9,12 @@ const BurgerStyle = styled.div`
   position: fixed;
   top: 15px;
   right: 20px;
+  display: none;
 
   div {
     width: 20px;
     height: 3px;
-    background: #227093;
+    background: #fff;
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
