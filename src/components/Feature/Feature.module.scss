@@ -1,0 +1,27 @@
+@import '../../styles/settings.scss';
+
+.cardFeature {
+  border: none;
+  justify-content: center;
+  margin: 24px 0;
+  transition: $transmition;
+}
+
+.cardBody {
+  transition: $transmition;
+}
+
+.cardFeature:hover {
+  transform: scale(1.2);
+}
+
+.icon {
+  font-size: 8px;
+  padding: 15px;
+  background: $color-three;
+  height: 60px;
+  width: 60px;
+  color: $color-one;
+  border-radius: 50%;
+  transition: $transmition;
+}

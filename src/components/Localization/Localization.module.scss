@@ -1,0 +1,14 @@
+@import '../../styles/settings.scss';
+
+.frame {
+  width: 700px;
+  height: 450px
+}
+
+@media (max-width: 767px) {
+
+  .frame {
+    width: 350px;
+    height: 200px;
+  }
+}  

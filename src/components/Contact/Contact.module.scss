@@ -1,0 +1,40 @@
+@import '../../styles/settings.scss';
+
+.contact {
+  background: $color-one;
+}
+
+.container {
+  margin: 0;
+  padding: 24px;
+}
+
+.contactTitle {
+  color: $color-three;
+  font-size: 32px;
+  padding-bottom: 15px;
+  margin: 0;
+  font-family: $font-text;
+  text-decoration: underline 1px;
+  text-align: center;
+}
+
+.facebook {
+  font-size: 30px;
+  color: $color-three;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: $transmition;
+  padding: 12px 0;
+}
+
+.facebook:hover {
+  transform: scale(1.1);
+}
+
+.aFacebook {
+  font-size: 0;
+}
+

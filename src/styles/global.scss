@@ -1,0 +1,79 @@
+@import './settings.scss';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-three;
+}
+
+body:hover {
+  .title::after {
+    width: 320px;
+  }
+}
+
+.container {
+  padding: 0 20px;
+  text-align: center;
+  margin: 84px 24px;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.title {
+  color: $color-two;
+  font-size: 28px;
+  position: relative;
+  font-family: $font-text;
+  margin: 48px;
+  transition: 2s;
+  text-align: center;
+}
+
+.title::after {
+  position: absolute;
+  content: '';
+  bottom: -12px;
+  left: 50%;
+  width: 200px;
+  height: 3px;
+  transform: translateX(-50%);
+  background: $color-one;
+  transition: $transmition;
+}
+
+.descriptionLight {
+  font-size: 22px;
+  color: $color-three;
+  font-family: $font-text;
+  text-align: center;
+}
+
+.descriptionDark {
+  font-size: 18px;
+  color: $color-two;
+  font-family: $font-text;
+  margin: 0;
+  padding: 10px;
+}
+
+.descriptionTitle {
+  font-size: 22px;
+  color: $color-two;
+  font-family: $font-text;
+  font-weight: 600;
+}
+
+.card {
+  margin: 24px;
+  transition: $transmition;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+@import "./typography.scss";

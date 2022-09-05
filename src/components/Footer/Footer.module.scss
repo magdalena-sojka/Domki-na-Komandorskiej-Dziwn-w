@@ -1,0 +1,18 @@
+@import '../../styles/settings.scss';
+
+.footer {
+  min-height: 70px;
+}
+
+.container {
+  margin: 0
+}
+
+.textFooter {
+  text-align: center;
+  color: $color-two;
+  padding: 24px 0;
+  margin: 8px 0;
+  font-family: $font-text;
+  font-size: 14px;
+}
