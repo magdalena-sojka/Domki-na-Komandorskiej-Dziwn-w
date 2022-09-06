@@ -7,7 +7,7 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  z-index: 10;
+  z-index: 99;
 
   .navLink {
     margin: 0 14px;

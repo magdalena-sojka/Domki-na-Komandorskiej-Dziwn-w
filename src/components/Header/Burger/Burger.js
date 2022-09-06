@@ -7,10 +7,10 @@ const BurgerStyle = styled.div`
   @media (max-width: 768px) {
     width: 40px;
     height: 40px;
-    position: fixed;
-    top: 15px;
+    position: absolute;
+    top: 20px;
     right: 20px;
-    z-index: 20;
+    z-index: 100;
 
     div {
       width: 40px;

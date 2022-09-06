@@ -10,7 +10,9 @@ const Header = () => {
           <div>
             <a href="/"><img src="https://i.postimg.cc/HktdJPxM/IMG-20210604-WA0007.jpg" width="200" height="200" alt="Domki na Komandorskiej" loading="lazy" className={styles.logo}></img></a>
           </div>
-          <Burger />
+          <div>
+            <Burger />
+          </div>  
         </div>
       </div>  
     </div>

@@ -8,7 +8,7 @@ const About = () => {
     <div className="container">
       <h1 className="title">Opis obiektu</h1>
       <div className="my-4 d-flex flex-row align-items-center justify-content-center flex-wrap">
-        <div className="col align-items-center">
+        <div className="col align-items-center col-12 col-md-6">
           <ListGroup variant="flush">
             <ListGroup.Item><p className="descriptionDark">W naszej ofercie posiadamy 3 całoroczne domki letniskowe.</p></ListGroup.Item>
             <ListGroup.Item><p className="descriptionDark">Jeden domek murowany z orzewaniem gazowym i dwa drewniane z ogrzewaniem elektrycznym.</p></ListGroup.Item>
@@ -19,19 +19,19 @@ const About = () => {
             <ListGroup.Item><p className="descriptionDark">Dodatkowo każdy domek posiada dwa miejsca noclegowe w pokoju dziennym na parterze.</p></ListGroup.Item>
           </ListGroup>
         </div>
-        <div className="col d-flex justify-content-center">
-          <Card style={{ width: '24rem' }}>
-            <Card.Img variant="top" src="https://i.postimg.cc/76MC62Ld/20220703-164344.jpg" style={{ height: '18rem' }} className="m-3"/>
+        <div className="col d-flex justify-content-center col-12 col-md-6">
+          <Card>
+            <Card.Img variant="top" src="https://i.postimg.cc/76MC62Ld/20220703-164344.jpg" className="px-2 py-2"/>
           </Card>
         </div>
       </div>
       <div className="my-4 d-flex flex-row align-items-center justify-content-center flex-wrap">
-        <div className="col d-flex justify-content-center">
-          <Card style={{ width: '24rem' }}>
-            <Card.Img variant="top" src="https://i.postimg.cc/wM4Zsvby/4.jpg" style={{ height: '18rem' }} className="m-3"/>
+        <div className="col d-flex justify-content-center col-12 col-md-6">
+          <Card>
+            <Card.Img variant="top" src="https://i.postimg.cc/wM4Zsvby/4.jpg" className="px-2 py-2"/>
           </Card>
         </div>
-        <div className="col align-items-center">
+        <div className="col align-items-center col-12 col-md-6">
           <ListGroup variant="flush">
             <ListGroup.Item><p className="descriptionDark">Każdy z domków posiada własny zadaszony taras z meblami ogrodowymi.</p></ListGroup.Item>
             <ListGroup.Item><p className="descriptionDark">Kuchnie wyposażone są w lodówkę, kuchenkę mikrofalową, płytę kuchenną oraz czajnik.</p></ListGroup.Item>
@@ -43,7 +43,7 @@ const About = () => {
         </div>
       </div>
       <div className="my-4 d-flex flex-row align-items-center justify-content-center flex-wrap">
-        <div className="col align-items-center">
+        <div className="col align-items-center col-12 col-md-6">
           <ListGroup variant="flush">
             <ListGroup.Item><p className="descriptionDark">Domki posiadają dostęp do internetu.</p></ListGroup.Item>
             <ListGroup.Item><p className="descriptionDark">Do każdego zarezerwowanego domku przysługuje bezpłatne miejsce parkingowe.</p></ListGroup.Item>
@@ -53,9 +53,9 @@ const About = () => {
             <ListGroup.Item><p className="descriptionDark">W okresie wakacyjnym domki wynajmujemy w terminach tygodniowych od soboty do soboty.</p></ListGroup.Item>
           </ListGroup>
         </div>
-        <div className="col d-flex justify-content-center">
-          <Card style={{ width: '24rem' }}>
-            <Card.Img variant="top" src="https://i.postimg.cc/0yBfBs8b/20220703-162437.jpg" style={{ height: '18rem' }} className="m-3"/>
+        <div className="col d-flex justify-content-center col-12 col-md-6">
+          <Card>
+            <Card.Img variant="top" src="https://i.postimg.cc/0yBfBs8b/20220703-162437.jpg" className="px-2 py-2"/>
           </Card>
         </div>
       </div>
