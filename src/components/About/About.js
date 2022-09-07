@@ -11,7 +11,7 @@ const About = () => {
         <div className="col align-items-center col-12 col-md-6">
           <ListGroup variant="flush">
             <ListGroup.Item><p className="descriptionDark">W naszej ofercie posiadamy 3 całoroczne domki letniskowe.</p></ListGroup.Item>
-            <ListGroup.Item><p className="descriptionDark">Jeden domek murowany z orzewaniem gazowym i dwa drewniane z ogrzewaniem elektrycznym.</p></ListGroup.Item>
+            <ListGroup.Item><p className="descriptionDark">Jeden domek murowany z ogrzewaniem gazowym i dwa drewniane z ogrzewaniem elektrycznym.</p></ListGroup.Item>
             <ListGroup.Item><p className="descriptionDark">Domki zostały oddane do użytkowania w 2020 roku i w 2022 roku.</p></ListGroup.Item>
             <ListGroup.Item><p className="descriptionDark">W każdym z domków jest możliwość zakwaterowania maksymalnie 6 osób.</p></ListGroup.Item>
             <ListGroup.Item><p className="descriptionDark">Każdy z domków posiada 2 osobne sypialnie na I piętrze.</p></ListGroup.Item>
