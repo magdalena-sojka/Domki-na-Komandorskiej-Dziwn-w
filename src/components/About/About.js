@@ -19,14 +19,14 @@ const About = () => {
             <ListGroup.Item><p className="descriptionDark">Dodatkowo każdy domek posiada dwa miejsca noclegowe w pokoju dziennym na parterze.</p></ListGroup.Item>
           </ListGroup>
         </div>
-        <div className="col d-flex justify-content-center col-12 col-md-6">
+        <div className="col d-flex justify-content-center col-9 col-md-6">
           <Card>
             <Card.Img variant="top" src="https://i.postimg.cc/76MC62Ld/20220703-164344.jpg" className="px-2 py-2"/>
           </Card>
         </div>
       </div>
       <div className="my-4 d-flex flex-row align-items-center justify-content-center flex-wrap">
-        <div className="col d-flex justify-content-center col-12 col-md-6">
+        <div className="col d-flex justify-content-center col-9 col-md-6">
           <Card>
             <Card.Img variant="top" src="https://i.postimg.cc/wM4Zsvby/4.jpg" className="px-2 py-2"/>
           </Card>
@@ -53,7 +53,7 @@ const About = () => {
             <ListGroup.Item><p className="descriptionDark">W okresie wakacyjnym domki wynajmujemy w terminach tygodniowych od soboty do soboty.</p></ListGroup.Item>
           </ListGroup>
         </div>
-        <div className="col d-flex justify-content-center col-12 col-md-6">
+        <div className="col d-flex justify-content-center col-9 col-md-6">
           <Card>
             <Card.Img variant="top" src="https://i.postimg.cc/0yBfBs8b/20220703-162437.jpg" className="px-2 py-2"/>
           </Card>

@@ -6,20 +6,20 @@ import RightNav from '../RightNav/RightNav.js';
 const BurgerStyle = styled.div`
   @media (max-width: 768px) {
     width: 40px;
-    height: 40px;
+    height: 50px;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 25px;
     z-index: 100;
 
     div {
       width: 40px;
-      height: 3px;
+      height: 2px;
       background-color: ${({ open }) => open ? '#fff' : '#227093'};
       border-radius: 10px;
       transform-origin: 1px;
-      transition: all 0.3s linear;
-      margin: 10px 0;
+      transition: all 0.3 linear;
+      margin: 8px 0;
     }
   }  
 `;
